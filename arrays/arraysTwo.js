@@ -30,7 +30,9 @@ const shiftArrayToRight = (arr, val) => {
         }arr[0] = temp
     }return arr
 }
-console.log(shiftArrayToRight([1,2,3,4,5], 4))
+console.log(shiftArrayToRight([1,2,3,4,5], 1))
+console.log(shiftArrayToRight([1,2,3,4,5], 2))
+console.log(shiftArrayToRight([1,2,3,4,5], 3))
 
 const shiftArrayToLeft = (arr, val) => {
     for (var i = 0; i < val; i++){
@@ -41,5 +43,7 @@ const shiftArrayToLeft = (arr, val) => {
     }return arr
 }
 console.log(shiftArrayToLeft([1,2,3,4,5], 1))
+console.log(shiftArrayToLeft([1,2,3,4,5], 2))
+console.log(shiftArrayToLeft([1,2,3,4,5], 3))
 
 // ! combine the 2 functions above 
